@@ -1,22 +1,24 @@
-﻿//1)Generic Swap Method
+﻿#region TASK1
+//Generic Swap Method
 
 //Write a generic method that swaps two elements.
 
-//İki elementi dəyişdirən ümumi metod yazın.
 
-List<int> number = new();
-number.Add(1);
-number.Add(8);
-number.Add(13);
-number.Add(4);
-number.Remove(4);
-number.Remove(1);
-foreach (var item in number)
-{
-    Console.WriteLine(item);
 
-}
+//List<int> number = new();
+//number.Add(1);
+//number.Add(8);
+//number.Add(13);
+//number.Add(4);
+//number.Remove(4);
+//number.Remove(1);
+//foreach (var item in number)
+//{
+//    Console.WriteLine(item);
 
+//}
+
+#endregion
 
 #region TASK2
 //Generic Max Method
@@ -59,7 +61,7 @@ foreach (var item in number)
 
 //1)Write a generic method that prints all elements in a List<T>.
 
-//List<T>-də bütün elementləri çap edən ümumi metod yazın.
+
 
 
 
